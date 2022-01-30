@@ -1,0 +1,9 @@
+        static void Main(string[] args)
+        {
+            int numeroQualquer = 20 + 20;
+            Console.WriteLine(numeroQualquer);
+
+            Console.ReadLine();
+        }
+    }
+}
