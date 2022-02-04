@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace CursoCSharp.Fundamentos
+{
+    class VariaveisEContantes
+    {
+        public static void Main()
+        {
+            Console.WriteLine("qual é seu nome?");
+            string nome = Console.ReadLine();
+            {
+                if (nome == "Pietro")
+                {
+                    Console.WriteLine("Hey! Você é o amor da minha vida!");
+                }
+                else
+                { 
+                    Console.WriteLine("Sai pra lá...Você não é meu amor!!!!!!");
+                }
+                Console.WriteLine();
+
+
+            }
+        }
+    }
+}
